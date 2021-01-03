@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="tw">
+<head> 
+        <meta charset="UTF-8">
+        <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+
+.full-screen{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(255,160,35,0.6);
+	z-index:10;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+h1{
+           color:lightpink;
+           margin:5px;
+           cursor:pointer;
+
+}
+h1:hover{
+           background:seashell;
+}
+
+h1{
+           color:rosybrown;
+          
+
+}
+
+
+.close{
+ position: absolute;
+ z-index:11;
+ right: 25px;
+ top: 25px;
+ width: 50px;
+ height: 50px; 
+ background: silver;
+ border-radius: 25px; 
+ box-shadow: 2px 2px 5px 0px black;
+ cursor: pointer;
+
+}
+.close:hover {
+ background: red;
+}
+
+.close:before {
+ position: absolute;
+ content: ''; 
+ width: 30px;
+ height: 10px; 
+ background: white; 
+ transform: rotate(45deg); 
+ top: 20px; left: 10px;
+
+}
+.close:after{
+ content: '';
+ position: absolute;
+ width: 30px;
+ height: 10px;
+ background: white; 
+ transform: rotate(-45deg);
+ top: 20px;
+ left: 10px;
+}
+
+</style>
+</head>
+
+
+<body>
+<body bgcolor="#ffe4e1">
+<center>
+<div id="head">
+
+<table width="1000"border="0" cellpadding="0" cellspacing="0">
+<tr>
+
+       <td><img src="title.png"width="1000"height="100"></td>
+
+</tr>
+</table>
+</div>
+<tr>
+       <td align="center"><h1>毛毛蟲文創專區</h1></td>
+<style>
+
+</style>
+</tr>
+
+
+<div class="full-screen"align="center">
+<img src="001.gif">
+</div>
+
+
+ 
+
+
+
+
+
+<div class="close">
+</div>
+<script>
+
+$("h1").click(function(){
+ $(".full-screen").slideToggle();
+});
+
+
+$("h1").click(function(){
+ $(".close").slideToggle();
+});
+
+
+$(".close").click(function(){
+ $(".full-screen").slideToggle();
+});
+
+
+$(".close").click(function(){
+ $(".close").slideToggle();
+});
+
+
+</script>
+
+
+
+</head>
+
+
+
+
+
+
+<div id="nav1"><br>
+
+<table width="1000"border="0"cellpadding="0"cellspacing="1"bgcolor="#999999">
+<tr>
+       <td bgcolor="#fdf2c8"><a href=" https://funing628.github.io/maomao/">首頁</a>　>　營業項目＆特賣商品
+</td>
+</tr>
+</table>
+</div>
+
+<div id="cont"><br/>
+<table border="0" width="1000"border="0"cellpadding="0"cellspacing="1"bgcolor="#999999">
+
+<tr>
+<td align="center" bgcolor="#fafad2"colspan="2"valign="center"><font size="36"><b>商品總覽</b></font>
+</tr>
+
+
+<tr>
+
+<td width="191" bgcolor="#ffedeb"valign="top">
+<table width="181"cellpadding="0"cellspacing="1">
+
+<tr>
+<center>
+<h3>營業項目</h3>
+<li width="171"style="text-align: left"><a href="https://www.pinkoi.com/store/indot?category=0">衣著服飾</li>
+<tr>
+
+<tr>
+<li width="171"style="text-align: left"><a href="https://www.pinkoi.com/store/indot?tag=%E6%96%87%E5%89%B5%E5%95%86%E5%93%81&i18n_tag=%E6%96%87%E5%89%B5%E5%95%86%E5%93%81">  文創商品</li>
+<tr>
+
+<tr>
+<li width="171"style="text-align: left"><a href="https://www.pinkoi.com/store/indot?category=5">客製化產品</li>
+<tr>
+
+<tr>
+<li width="171"style="text-align: left"><a href="https://www.pinkoi.com/store/indot?category=9&subcategory=922">樂器</li>
+<tr>
+
+<tr>
+<li width="171"style="text-align: left"><a href="https://www.pinkoi.com/store/indot?category=14">美妝</li>
+<tr>
+
+<tr>
+<li width="171"style="text-align: left"><a href="https://www.pinkoi.com/store/indot?category=3">插畫家聯名</li>
+<tr>
+
+</table>
+</td>
+
+<td width="806" bgcolor="#ffffff"valign="top">
+<table width="800"cellpadding="0"cellspacing="1">
+<tr>
+<td><img src="01.JPG"width="145"height="200"></td>
+<td><img src="TAINAN.jpg"width="145"height="200"></td>
+<td><img src="TAICHUN.jpg"width="145"height="200"></td>
+<td><img src="MIAOLI.jpg"width="145"height="200"></td>
+<td><img src="TAOYUAN.jpg"width="145"height="200"></td>
+<tr>
+
+<tr>
+<td align="center"><a href="jj.pdf"target="_blank">8元哥</a></td>
+<td align="center"><a href="Travel in Tainan.pdf"target="_blank">熊 秋葵</a></td>
+<td align="center"><a href="taichun.pdf"target="_blank">微疼</a></td>
+<td align="center"><a href="201901.pdf"target="_blank"> 超直白</a></td>
+<td align="center"><a href="77.pdf"target="_blank">老闆這魚</a></td>
+<tr>
+
+<tr>
+<td><img src="02.jpg"width="145"height="200"></td>
+<td><img src="06.jpg"width="145"height="200"></td>
+<td><img src="03.jpg"width="145"height="200"></td>
+<td><img src="05.jpg"width="145"height="200"></td>
+<td><img src="11.jpg"width="145"height="200"></td>
+<tr>
+
+<tr>
+<td align="center"><a href="hualien.pdf"target="_blank">米粒大叔</a></td>
+<td align="center"><a href="001.pdf"target="_blank">天天好事</a></td>
+<td align="center"><a href="372686.jpg"target="_blank">阿蕉</a></td>
+<td align="center"><a href="https://youtu.be/tHzjj1e0R8s"target="_blank">小黃間</a></td>
+<td align="center"><a href="002.pdf"target="_blank"阿喵菜市場</a></td>
+<tr>
+
+<tr>
+<td><img src="04.jpg"width="145"height="200"></td>
+<td><img src="07.JPG"width="145"height="200"></td>
+<td><img src="006.jpg"width="145"height="200"></td>
+<td><img src="008.PNG"width="145"height="200"></td>
+<td><img src="10.jpg"width="145"height="200"></td>
+<tr>
+       
+<tr>
+<td align="center"><a href="201902.pdf"target="_blank">吃到飽阿飽</a></td>
+<td align="center"><a href="003.pdf"target="_blank">黑盒子-Pony</a></td>
+<td align="center"><a href="https://youtu.be/xutqLY6wDxo"target="_blank">刺刺</a></td>
+<td align="center"><a href="005.pdf"target="_blank"> 無奈熊</a></td>
+<td align="center"><a href="006.pdf"target="_blank">鬧博士</a></td>
+<tr>
+
+</table>
+</td>
+
+</tr>
+
+</table>
+</td>
+</div>
+
+</body>
+</html>
+<div id="bottom">
+  <table width="1000" border="0" cellpadding="0" cellspacing="1" bgcolor="#999999">
+    <tr>
+      <td align="center" bgcolor="#e3e3be"><br />
+        <a href="index.html">&copy版權所有。國立聯合大學文觀系。禁止轉貼<br />
+          <br />
+        </a></td>
+    </tr>
+  </table>
+</div>
